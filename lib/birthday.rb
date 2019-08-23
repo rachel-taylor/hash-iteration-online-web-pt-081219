@@ -13,7 +13,7 @@ end
 def age_appropriate_birthday(birthday_kids)
   if age < 12 do |kids_name, age|
    puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
- elseif 
+ else
    puts "You are too old for this."
  end 
 end 
